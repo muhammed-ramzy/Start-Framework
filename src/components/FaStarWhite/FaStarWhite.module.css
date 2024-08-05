@@ -1,0 +1,23 @@
+.icon::before {
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 5rem;
+    height: 0.25rem;
+    top: 50%;
+    left: 200%;
+}
+.icon::after {
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 5rem;
+    height: 0.25rem;
+    top: 50%;
+    right: 200%;
+}
+
+.icon{
+    position: relative;
+    width: 1rem;
+}

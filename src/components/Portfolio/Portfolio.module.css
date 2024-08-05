@@ -1,0 +1,51 @@
+.icon::before {
+    position: absolute;
+    content: "";
+    background-color: var(--my-dark-color);
+    width: 5rem;
+    height: 0.25rem;
+    top: 50%;
+    left: 200%;
+}
+.icon::after {
+    position: absolute;
+    content: "";
+    background-color: var(--my-dark-color);
+    width: 5rem;
+    height: 0.25rem;
+    top: 50%;
+    right: 200%;
+}
+
+.icon{
+    position: relative;
+    width: 1rem;
+}
+
+
+.sectionHeight
+{
+  min-height: calc(100vh - 5rem);
+}
+
+
+.overlay
+{
+    z-index: 9999;
+}
+
+.plus
+{
+    font-size: 10rem;
+}
+
+.overlayCard
+{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.overlayCard:hover
+{
+    opacity: 1;
+}

@@ -1,0 +1,38 @@
+:root
+{
+  --my-dark-color: #2C3E50;
+  --my-main-bg-color: var(--my-dark-color);
+  --my-text-color: var(--my-dark-color);
+  --my-sec-bg-color: #1ABC9C;
+}
+
+
+/* Colors Classes */
+.my-main-bg-color
+{
+  background-color: var(--my-main-bg-color);
+}
+
+.my-text-color
+{
+  color: var(--my-text-color);
+}
+
+.my-sec-bg-color
+{
+  background-color: var(--my-sec-bg-color);
+}
+
+.navbar-nav .nav-link.active
+{
+  background-color: #1abc9c;
+}
+
+.standard-height
+{
+  min-height: calc(100vh - 5rem);
+}
+
+input.form-control:focus {
+  box-shadow: none;
+}
